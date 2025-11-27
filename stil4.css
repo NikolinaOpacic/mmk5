@@ -1,0 +1,158 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+	background-image:url("pozadinaa.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+
+#zaglavlje {
+    background-color: #f3f3f3;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.blok {
+    display: block;
+    margin: 10px;
+}
+
+
+[data-rola="naslov"] {
+    border-bottom: 2px solid #999;
+}
+
+[data-rola="navigacija"] {
+    background-color: #ececec;
+}
+
+[data-tip="tekst"] {
+    background-color: #ffffff;
+}
+
+[data-tip="slika"] {
+    background-color: rgba(255,255,255,0.7);
+}
+
+
+nav ul.meni li a.link {
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+}
+
+
+nav ul.meni li a.link:hover {
+    color: #0066cc;
+}
+
+
+main.sekcija section.sekcija h2.naslov-sekcije {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.sekcija {
+    margin: 20px;
+}
+
+
+
+
+.kolona {
+    width: 45%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.kolona.lijeva {
+    text-align: left;
+}
+
+.kolona.desna {
+    text-align: right;
+}
+
+
+.ciscenje {
+    clear: both;
+}
+
+
+.glavni-naslov {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.podnaslov {
+    margin: 5px 0;
+    text-align: center;
+}
+
+
+.naslov-kolone {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+
+.okvir-relativni {
+    position: relative;
+    border: 5px solid #000000;
+    height: 200px;
+    margin: 20px 0;
+}
+
+
+.okvir-apsolutni {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffcc66;
+    padding: 5px 10px;
+}
+
+
+.tekst-centar {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.mala-kutija {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #99ddff;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+h1 {
+	color:darkblue;
+	font-family:Berlin Sans FB;
+}
+
+h2{
+	font-family:Dubai;
+}
+
+p{
+	font-family:Candara;
+}
+
+h3{
+	font-family:Dubai;
+}

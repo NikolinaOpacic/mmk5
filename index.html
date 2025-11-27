@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadaća 5 – Layout</title>
+    <link rel="stylesheet" href="stil4.css">
+</head>
+<body>
+
+<header id="zaglavlje" class="blok sekcija" data-rola="naslov">
+    <h1 class="glavni-naslov">MMK vježba 5</h1>
+    <p class="podnaslov">Primjer stranice s raznim selektorima i pozicioniranjem.</p>
+</header>
+
+<nav class="blok" data-rola="navigacija">
+    <ul class="meni">
+        <li><a href="#sadrzaj" class="link">Početna</a></li>
+        <li><a href="#kolone" class="link vazno">Kolone</a></li>
+        <li><a href="#fiksno" class="link">Fiksni okvir</a></li>
+    </ul>
+</nav>
+
+<main id="sadrzaj" class="sekcija">
+    <section id="kolone" class="sekcija">
+        <h2 class="naslov-sekcije">Dvije kolone s floatom</h2>
+
+        <div class="kolona lijeva" data-tip="slika">
+            <h3 class="naslov-kolone">Lijeva strana</h3>
+            <p>
+                Putovanje u Pulu.
+            </p>
+			<img src="20220902_190528.jpg" width="331">
+        </div>
+
+        <div class="kolona desna" data-tip="slika">
+            <h3 class="naslov-kolone">Desna strana</h3>
+			<p>
+                Putovanje u Paris.
+            </p>
+            <img src="20251004_194722.jpg" width="200">
+        </div>
+
+        <div class="ciscenje"></div>
+    </section>
+
+    <section id="fiksno" class="sekcija">
+        <h2 class="naslov-sekcije">Primjeri pozicioniranja:</h2>
+
+        <div class="okvir-relativni">
+            <p class="tekst-centar">
+                <strong>Tekst unutar okvira.</strong>
+            </p>
+            <div class="okvir-apsolutni">
+                Kvadrat u gornjem desnom kutu.
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="blok sekcija" data-rola="podnozje">
+    <p class="podnaslov">Podnožje stranice</p>
+</footer>
+
+<div id="info-kut" class="mala-kutija">
+    Info kutak.
+</div>
+
+</body>
+</html>
